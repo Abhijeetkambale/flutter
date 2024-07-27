@@ -4,10 +4,10 @@ class Assignment_1 extends StatefulWidget {
   const Assignment_1({super.key});
 
   @override
-  State<Assignment1> createState() => _Assignment1State();
+  State<Assignment_1> createState() => _Assignment1State();
 }
 
-class _Assignment1State extends State<Assignment1> {
+class _Assignment1State extends State<Assignment_1> {
   bool colorChanged=false;
   Color color=Color.fromARGB(255, 3, 35, 196);
   void changeColor(){
