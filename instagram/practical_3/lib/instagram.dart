@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 class Instagram extends StatelessWidget {
   const Instagram({super.key});
@@ -13,8 +13,8 @@ class Instagram extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title:Text(
-          "Instagram",style:GoogleFonts.lindenHill(textStyle:const TextStyle(
+        title:const Text(
+          "Instagram",style: TextStyle(
             color: Colors.pinkAccent,         // Change font color
             fontSize: 28.0,            // Change font size
             //fontWeight: FontWeight.bold,
@@ -27,7 +27,7 @@ class Instagram extends StatelessWidget {
               //fontStyle: FontStyle.italic,
           ),*/
           //style:GoogleFonts.lindenHill(textStyle:TextStyle(color:Colors.white)),
-        ),
+        
         actions: const [Icon(Icons.favorite_border_outlined,color: Colors.white,size: 20,),SizedBox(width: 10),Icon(Icons.message_outlined,color: Colors.white,size: 20,),SizedBox(width: 5)],
       ),
       body:SizedBox( //changed with container
