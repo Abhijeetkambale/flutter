@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practical_3/instagram.dart';
+import 'package:practical_3/instgram_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +32,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Instagram(),
+      home:Instagram
+      
+      (),
     );
   }
 }
